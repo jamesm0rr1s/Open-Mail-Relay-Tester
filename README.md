@@ -14,8 +14,9 @@ git clone https://github.com/jamesm0rr1s/Open-Mail-Relay-Tester /opt/jamesm0rr1s
  - Update the email addresses and IP address in "/opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh"
  - Test the open mail relay by running one of the following commands:
     - e2e: external to external domain
-	- e2i: external to internal domain
-	- i2i: internal to internal domain
+    - e2i: external to internal domain
+    - i2i: internal to internal domain
+    - i2e: internal to external domain
 ```
 chmod +x /opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh
 
@@ -24,4 +25,6 @@ chmod +x /opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh
 /opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh e2i
 
 /opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh i2i
+
+/opt/jamesm0rr1s/Open-Mail-Relay-Tester/testOpenMailRelay.sh i2e
 ```
